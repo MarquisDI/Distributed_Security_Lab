@@ -1,0 +1,31 @@
+from flask import Flask, json, jsonify, request, jsonify
+import logging 
+
+# professional logging setup 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - [BRAIN] - %(message)s')
+
+app = Flask(__name__)
+
+# Door 1: The welcome Mat (GET)
+@app.route('/')
+def door_1():
+    logging.info("Door 1 accessed by a browser.")
+    return "<h1>Brain is Online</h1><p>Monitoring Door 1 (Web) and Door 2 (scout).</p>"
+
+# Door 2: The loading Dock (POST)
+@app.route('/scout', methods=['POST'])
+def door_2():
+    data = request.json  
+    if data:
+        target = data.get("target_ip")
+        status = data.get("status")
+
+        logging.info(f"DOOR 2 SUCCESS: Report receieved for {target}")
+        logging.info(f"Findings: {status}")
+
+        return jsonify({"message": "Data receieved", "status": "success", "door": 2}), 200
+
+    else:
+        return jsonify({"error": "Package empty"}), 400
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8080)
