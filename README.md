@@ -148,7 +148,7 @@ python scout.py
 **The Brain (run on Replit or any server):**
 ```bash
 pip install flask
-python brain.py
+python main.py
 ```
 
 Then visit your server URL in a browser to see the live dashboard.
