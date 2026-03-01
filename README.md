@@ -83,7 +83,7 @@ Memory > 90%? → ALERT: High memory usage
 - POSTs to The Brain every 60 seconds via `requests`
 - Handles relay failures gracefully and retries on the next cycle
 
-### `brain.py` — The Server (Replit / Flask)
+### `main.py` — The Server (Replit / Flask)
 - Exposes a `/heartbeat` POST endpoint to receive Scout's data
 - Runs threat detection on every incoming payload
 - Caps stored history at 100 records to manage memory
