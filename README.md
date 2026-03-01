@@ -4,7 +4,8 @@
 
 ![Dashboard Preview](screenshot.png)
 
----<img width="1365" height="767" alt="screenshot png" src="https://github.com/user-attachments/assets/73534b59-80fb-4a4a-a563-4868063c4976" />
+---<img width="1365" height="767" alt="screenshot png (2)" src="https://github.com/user-attachments/assets/6b8645d3-0b8d-4377-a70f-c3634830499d" />
+
 
 ---<img width="1365" height="767" alt="screenshot png" src="https://github.com/user-attachments/assets/eef1905e-bbbd-4ca7-be39-b04fcf4ef52b" />
 
