@@ -4,9 +4,10 @@
 
 ![Dashboard Preview](screenshot.png)
 
----<img width="1365" height="767" alt="screenshot png" src="https://github.com/user-attachments/assets/5197f376-18a9-459e-bf0f-27d31f3877cc" />
+---<img width="1365" height="767" alt="screenshot png" src="https://github.com/user-attachments/assets/73534b59-80fb-4a4a-a563-4868063c4976" />
 
----<img width="1365" height="767" alt="screenshot png (2)" src="https://github.com/user-attachments/assets/03c5bdcc-92e6-4850-880b-062c8c040287" />
+---<img width="1365" height="767" alt="screenshot png (2)" src="https://github.com/user-attachments/assets/cff76121-adb8-4195-bfad-aa9e04e28f7f" />
+
 
 
 ## What This Is
