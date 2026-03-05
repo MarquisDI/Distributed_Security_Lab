@@ -29,9 +29,11 @@ It is actively in development. The current phase demonstrates the full data pipe
 
 
 ### Dashboard — Live Monitor
-![Dashboard](screenshot.png)
+---<img width="1364" height="681" alt="Screenshot png(3)" src="https://github.com/user-attachments/assets/4227b469-a367-4d09-b074-803aba2b27ad" />
 
----
+
+---<img width="1365" height="767" alt="Screenshot(4)" src="https://github.com/user-attachments/assets/bf1bd6ae-3601-459e-9fe4-991f862ecfa1" />
+
 
 ## Architecture
 
