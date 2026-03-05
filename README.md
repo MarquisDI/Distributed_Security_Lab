@@ -4,7 +4,8 @@
 
 ![Dashboard Preview](screenshot.png)
 
----
+---<img width="1364" height="681" alt="Screenshot png(3)" src="https://github.com/user-attachments/assets/60a2054d-7819-455d-9233-8b400c2c7eee" />
+
 
 ## What This Is
 
