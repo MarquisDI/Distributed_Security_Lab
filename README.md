@@ -4,12 +4,7 @@
 
 ![Dashboard Preview](screenshot.png)
 
----<img width="1365" height="767" alt="screenshot png (2)" src="https://github.com/user-attachments/assets/6b8645d3-0b8d-4377-a70f-c3634830499d" />
-
-
----<img width="1365" height="767" alt="screenshot png" src="https://github.com/user-attachments/assets/eef1905e-bbbd-4ca7-be39-b04fcf4ef52b" />
-
-
+---
 
 ## What This Is
 
@@ -18,6 +13,19 @@ This project is a two-component security lab that simulates how real enterprise 
 It is actively in development. The current phase demonstrates the full data pipeline from agent to server, with a live monitoring dashboard.
 
 **Current Status: Phase 1 — Data Relay & Live Dashboard ✅**
+
+---
+
+## Screenshots
+
+### Scout — Field Agent (VS Code)
+![Scout](scout_screenshot.png)
+
+### The Brain — Server (Replit)
+![Brain](brain_screenshot.png)
+
+### Dashboard — Live Monitor
+![Dashboard](screenshot.png)
 
 ---
 
@@ -83,7 +91,7 @@ Memory > 90%? → ALERT: High memory usage
 - POSTs to The Brain every 60 seconds via `requests`
 - Handles relay failures gracefully and retries on the next cycle
 
-### `main.py` — The Server (Replit / Flask)
+### `brain.py` — The Server (Replit / Flask)
 - Exposes a `/heartbeat` POST endpoint to receive Scout's data
 - Runs threat detection on every incoming payload
 - Caps stored history at 100 records to manage memory
