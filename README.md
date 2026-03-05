@@ -21,10 +21,12 @@ It is actively in development. The current phase demonstrates the full data pipe
 ## Screenshots
 
 ### Scout — Field Agent (VS Code)
-![Scout](scout_screenshot.png)
+---<img width="1365" height="767" alt="Scout" src="https://github.com/user-attachments/assets/3516653f-6406-47f1-aad6-67bbdce46a67" />
+
 
 ### The Brain — Server (Replit)
-![Brain](brain_screenshot.png)
+---<img width="1364" height="767" alt="Brain" src="https://github.com/user-attachments/assets/bafdb4a1-56b4-490a-be08-0842defeed9d" />
+
 
 ### Dashboard — Live Monitor
 ![Dashboard](screenshot.png)
